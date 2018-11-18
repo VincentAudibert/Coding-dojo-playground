@@ -1,0 +1,27 @@
+{
+  "name": "coding-dojo-playground",
+  "version": "0.0.0",
+  "description": "A playground with setup for automatic tests (to use for coding dojos or exercises).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch --recursive src --reporter min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentAudibert/Coding-dojo-playground.git"
+  },
+  "keywords": [
+    "coding dojo",
+    "exercise"
+  ],
+  "author": "Vincent AUDIBERT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentAudibert/Coding-dojo-playground/issues"
+  },
+  "homepage": "https://github.com/VincentAudibert/Coding-dojo-playground#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
